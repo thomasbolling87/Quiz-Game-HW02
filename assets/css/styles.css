@@ -1,0 +1,98 @@
+body {
+    font-family: Arial;
+    font-size: 120%;
+    background-image: url(https://cdn.hipwallpaper.com/i/34/80/7xuaw6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  a {
+    color: #104596;
+    text-decoration: none;
+    transition: color 0.1s;
+  }
+  
+  a:hover {
+    color: #1281c2;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 100%;
+    background-color: #104596;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+  }
+  
+  button:hover {
+    background-color: #1281c2;
+  }
+  
+  .answers button {
+    display: block;
+  }
+  
+  input[type="text"] {
+    font-size: 100%;
+  }
+  
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+  }
+  
+  li:nth-child(odd) {
+    background-color: #14448b;
+  }
+  
+  .base-container {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 5px; 
+    color: rgb(2, 42, 54);
+    font-size:large;
+    background-color: #06794da6;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .start {
+    text-align: center;
+  }
+  
+  .scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: rgb(1, 35, 54);
+    border-top: 2px solid rgb(0, 0, 0);
+  }
+  
+  .timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  

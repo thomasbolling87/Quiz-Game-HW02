@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coding Quiz Homework 4</title>
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <!--This pulls the high scores html page-->  
+  <div class="scores"><a href="highscores.html">View highscores</a></div>
+
+  <div class="timer">Time Left: <span id="time">0</span></div>
+
+  <!--The first page of the quiz site. Has the Base class and Start button-->
+  <div class="base-container">
+    <div id="base" class="start">
+      <h1>Welcome to Who... Knows... Code!!!!</h1>
+      <p>
+        This game will be a collection of simple coding
+        questions that will challenge you on your basic coding knowledge.
+        How well do you know your basic coding commands!? We'll find out soon
+        in....  
+      </p>
+      <p>
+        WHO KNOWS CODE!!!  
+      </p>
+      <button id="start">Begin Game</button>
+    </div>
+    
+    <!--Question and Answers id & class-->
+    <div id="questions" class="hide">
+      <h2 id="question-title"></h2>
+      <div id="answers" class="answers"></div>
+    </div>
+    
+    <!--Game Over page with Game-Over, Total-Score, and Initials ids-->
+    <div id="game-over" class="hide">
+      <h3>Game-Over!!!</h3>
+      <p>Your total score is <span id="total-score"></span>.</p>
+      <p>
+        Enter Your Initials: <input type="text" id="initials" max=3 >
+        <button id="submit">Submit</button>
+      </p>
+    </div>
+
+    <div id="feedback" class="feedback-hide"></div>
+  </div>
+
+  <!--Script source that pulls the js information-->
+  <script src="assets/js/logic.js"></script>
+  <script src="assets/js/questions.js"></script>
+
+</body>
+
+</html>
